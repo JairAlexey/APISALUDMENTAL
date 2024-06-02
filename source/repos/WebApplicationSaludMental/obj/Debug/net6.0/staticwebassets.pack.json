@@ -1,0 +1,881 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplicationSaludMental.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApplicationSaludMental.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\Dropdown.css",
+      "PackagePath": "staticwebassets\\css\\Dropdown.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\Estilo.css",
+      "PackagePath": "staticwebassets\\css\\Estilo.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\EstiloColumnaDoble - Copia.css",
+      "PackagePath": "staticwebassets\\css\\EstiloColumnaDoble - Copia.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\EstiloColumnaDoble.css",
+      "PackagePath": "staticwebassets\\css\\EstiloColumnaDoble.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\EstiloSinBordes.css",
+      "PackagePath": "staticwebassets\\css\\EstiloSinBordes.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\Nueva.css",
+      "PackagePath": "staticwebassets\\css\\Nueva.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\css\\test.css",
+      "PackagePath": "staticwebassets\\css\\test.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\formulario.css",
+      "PackagePath": "staticwebassets\\formulario.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoJovenes\\Pregunta1.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoJovenes\\Pregunta1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoJovenes\\Pregunta10.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoJovenes\\Pregunta10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoJovenes\\Pregunta2.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoJovenes\\Pregunta2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoJovenes\\Pregunta3.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoJovenes\\Pregunta3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoJovenes\\Pregunta4.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoJovenes\\Pregunta4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoJovenes\\Pregunta5.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoJovenes\\Pregunta5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoJovenes\\Pregunta6.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoJovenes\\Pregunta6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoJovenes\\Pregunta7.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoJovenes\\Pregunta7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoJovenes\\Pregunta8.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoJovenes\\Pregunta8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoJovenes\\Pregunta9.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoJovenes\\Pregunta9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoNinos\\Pregunta1.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoNinos\\Pregunta1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoNinos\\Pregunta10.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoNinos\\Pregunta10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoNinos\\Pregunta2.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoNinos\\Pregunta2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoNinos\\Pregunta3.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoNinos\\Pregunta3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoNinos\\Pregunta4.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoNinos\\Pregunta4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoNinos\\Pregunta5.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoNinos\\Pregunta5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoNinos\\Pregunta6.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoNinos\\Pregunta6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoNinos\\Pregunta7.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoNinos\\Pregunta7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoNinos\\Pregunta8.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoNinos\\Pregunta8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\AnimoNinos\\Pregunta9.jpeg",
+      "PackagePath": "staticwebassets\\img\\AnimoNinos\\Pregunta9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadJovenes\\Pregunta1.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadJovenes\\Pregunta1.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadJovenes\\Pregunta10.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadJovenes\\Pregunta10.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadJovenes\\Pregunta2.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadJovenes\\Pregunta2.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadJovenes\\Pregunta3.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadJovenes\\Pregunta3.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadJovenes\\Pregunta4.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadJovenes\\Pregunta4.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadJovenes\\Pregunta5.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadJovenes\\Pregunta5.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadJovenes\\Pregunta6.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadJovenes\\Pregunta6.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadJovenes\\Pregunta7.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadJovenes\\Pregunta7.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadJovenes\\Pregunta8.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadJovenes\\Pregunta8.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadJovenes\\Pregunta9.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadJovenes\\Pregunta9.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadNinos\\Pregunta1.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadNinos\\Pregunta1.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadNinos\\Pregunta10.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadNinos\\Pregunta10.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadNinos\\Pregunta2.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadNinos\\Pregunta2.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadNinos\\Pregunta3.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadNinos\\Pregunta3.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadNinos\\Pregunta4.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadNinos\\Pregunta4.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadNinos\\Pregunta5.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadNinos\\Pregunta5.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadNinos\\Pregunta6.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadNinos\\Pregunta6.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadNinos\\Pregunta7.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadNinos\\Pregunta7.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadNinos\\Pregunta8.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadNinos\\Pregunta8.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\FelicidadNinos\\Pregunta9.webp",
+      "PackagePath": "staticwebassets\\img\\FelicidadNinos\\Pregunta9.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\1).jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\1..jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\1..jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\10).jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\10).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\2).jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\2).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\2..jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\2..jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\3).jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\3).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\3...jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\3...jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\4).jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\4...jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\4...jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\5).jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\5).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\5...jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\5...jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\6).jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\6).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\6...jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\6...jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\7).jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\7).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\7....jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\7....jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\8).jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\8).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\9).jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\9).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\AcosoEscolar.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\AcosoEscolar.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\AcosoLaboral.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\AcosoLaboral.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\AntesDelAcoso.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\AntesDelAcoso.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\AntesDelAcoso\\1.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\AntesDelAcoso\\1.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\AntesDelAcoso\\2.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\AntesDelAcoso\\2.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\AntesDelAcoso\\3.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\AntesDelAcoso\\3.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\AntesDelAcoso\\4.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\AntesDelAcoso\\4.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\Ciberacoso.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\Ciberacoso.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DespuesDelAcoso.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\DespuesDelAcoso.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DespuesDelAcoso\\1.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\DespuesDelAcoso\\1.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DespuesDelAcoso\\2.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\DespuesDelAcoso\\2.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DespuesDelAcoso\\3.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\DespuesDelAcoso\\3.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DespuesDelAcoso\\4.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\DespuesDelAcoso\\4.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DespuesDelAcoso\\5.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\DespuesDelAcoso\\5.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DespuesDelAcoso\\6.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\DespuesDelAcoso\\6.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DespuesDelAcoso\\7.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\DespuesDelAcoso\\7.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DespuesDelAcoso\\8.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\DespuesDelAcoso\\8.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DuranteElAcoso.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\DuranteElAcoso.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DuranteElAcoso\\1.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\DuranteElAcoso\\1.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DuranteElAcoso\\2.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\DuranteElAcoso\\2.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DuranteElAcoso\\3.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\DuranteElAcoso\\3.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\DuranteElAcoso\\4.webp",
+      "PackagePath": "staticwebassets\\img\\IA\\DuranteElAcoso\\4.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\EstadoAnimoJovenes.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\EstadoAnimoJovenes.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\EstadoAnimoNinos.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\EstadoAnimoNinos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\FelicidadJovenes.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\FelicidadJovenes.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\FelicidadNinos.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\FelicidadNinos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\Imagen1.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\Imagen1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\Imagen2.jpg",
+      "PackagePath": "staticwebassets\\img\\IA\\Imagen2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\Imagen3.jpg",
+      "PackagePath": "staticwebassets\\img\\IA\\Imagen3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\Imagen4.jpg",
+      "PackagePath": "staticwebassets\\img\\IA\\Imagen4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\Imagen5.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\Imagen5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\Imagen6.jpg",
+      "PackagePath": "staticwebassets\\img\\IA\\Imagen6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\Imagen7.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\Imagen7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\LogoBlanco.png",
+      "PackagePath": "staticwebassets\\img\\IA\\LogoBlanco.png"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\MiedoInseguridadesJovenes.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\MiedoInseguridadesJovenes.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\MiedoInseguridadesNinos.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\MiedoInseguridadesNinos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\ResponsabilidadNinos.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\ResponsabilidadNinos.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\ResponsabilidadesJovenes.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\ResponsabilidadesJovenes.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\Test1.jpg",
+      "PackagePath": "staticwebassets\\img\\IA\\Test1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\Test2.jpg",
+      "PackagePath": "staticwebassets\\img\\IA\\Test2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\IA\\_b75b0e4f-4c85-4d61-afce-ab24e17ed41d.jpeg",
+      "PackagePath": "staticwebassets\\img\\IA\\_b75b0e4f-4c85-4d61-afce-ab24e17ed41d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\Login\\Back.png",
+      "PackagePath": "staticwebassets\\img\\Login\\Back.png"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\Login\\facebook.svg",
+      "PackagePath": "staticwebassets\\img\\Login\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\Login\\google.svg",
+      "PackagePath": "staticwebassets\\img\\Login\\google.svg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\Login\\login.svg",
+      "PackagePath": "staticwebassets\\img\\Login\\login.svg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoJovenes\\Pregunta1.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoJovenes\\Pregunta1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoJovenes\\Pregunta10.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoJovenes\\Pregunta10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoJovenes\\Pregunta2.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoJovenes\\Pregunta2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoJovenes\\Pregunta3.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoJovenes\\Pregunta3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoJovenes\\Pregunta4.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoJovenes\\Pregunta4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoJovenes\\Pregunta5.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoJovenes\\Pregunta5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoJovenes\\Pregunta6.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoJovenes\\Pregunta6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoJovenes\\Pregunta7.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoJovenes\\Pregunta7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoJovenes\\Pregunta8.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoJovenes\\Pregunta8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoJovenes\\Pregunta9.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoJovenes\\Pregunta9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoNinos\\Pregunta1.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoNinos\\Pregunta1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoNinos\\Pregunta10.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoNinos\\Pregunta10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoNinos\\Pregunta2.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoNinos\\Pregunta2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoNinos\\Pregunta3.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoNinos\\Pregunta3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoNinos\\Pregunta4.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoNinos\\Pregunta4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoNinos\\Pregunta5.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoNinos\\Pregunta5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoNinos\\Pregunta6.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoNinos\\Pregunta6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoNinos\\Pregunta7.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoNinos\\Pregunta7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoNinos\\Pregunta8.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoNinos\\Pregunta8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\MiedoNinos\\Pregunta9.jpeg",
+      "PackagePath": "staticwebassets\\img\\MiedoNinos\\Pregunta9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesJovenes\\Pregunta1.webp",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesJovenes\\Pregunta1.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesJovenes\\Pregunta10.webp",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesJovenes\\Pregunta10.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesJovenes\\Pregunta2.webp",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesJovenes\\Pregunta2.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesJovenes\\Pregunta3.webp",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesJovenes\\Pregunta3.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesJovenes\\Pregunta4.webp",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesJovenes\\Pregunta4.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesJovenes\\Pregunta5.webp",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesJovenes\\Pregunta5.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesJovenes\\Pregunta6.webp",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesJovenes\\Pregunta6.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesJovenes\\Pregunta7.webp",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesJovenes\\Pregunta7.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesJovenes\\Pregunta8.webp",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesJovenes\\Pregunta8.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesJovenes\\Pregunta9.webp",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesJovenes\\Pregunta9.webp"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesNinos\\Pregunta1.jpeg",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesNinos\\Pregunta1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesNinos\\Pregunta10.jpeg",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesNinos\\Pregunta10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesNinos\\Pregunta2.jpeg",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesNinos\\Pregunta2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesNinos\\Pregunta3.jpeg",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesNinos\\Pregunta3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesNinos\\Pregunta4.jpeg",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesNinos\\Pregunta4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesNinos\\Pregunta5.jpeg",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesNinos\\Pregunta5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesNinos\\Pregunta6.jpeg",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesNinos\\Pregunta6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesNinos\\Pregunta7.jpeg",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesNinos\\Pregunta7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesNinos\\Pregunta8.jpeg",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesNinos\\Pregunta8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\img\\ResponsabilidadesNinos\\Pregunta9.jpeg",
+      "PackagePath": "staticwebassets\\img\\ResponsabilidadesNinos\\Pregunta9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\js\\Scroll.js",
+      "PackagePath": "staticwebassets\\js\\Scroll.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\js\\formulario.js",
+      "PackagePath": "staticwebassets\\js\\formulario.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\js\\menu.js",
+      "PackagePath": "staticwebassets\\js\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\js\\test.js",
+      "PackagePath": "staticwebassets\\js\\test.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\DETPC\\source\\repos\\WebApplicationSaludMental\\wwwroot\\login.css",
+      "PackagePath": "staticwebassets\\login.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebApplicationSaludMental.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebApplicationSaludMental.props",
+      "PackagePath": "build\\WebApplicationSaludMental.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplicationSaludMental.props",
+      "PackagePath": "buildMultiTargeting\\WebApplicationSaludMental.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebApplicationSaludMental.props",
+      "PackagePath": "buildTransitive\\WebApplicationSaludMental.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

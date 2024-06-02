@@ -1,0 +1,205 @@
+﻿@{
+    ViewData["Title"] = "Politicas de privacidad";
+    Layout = null;
+
+}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GuíaSaludMental</title>
+    <meta name="description" content="Página web de Salud Mental">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="anonymous" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+
+    <link href="~/css/sitioweb/estilocolumnadoble.css" rel="stylesheet" />
+    <link href="~/css/barramenu/estilosinbordes.css" rel="stylesheet" />
+    <link href="~/css/sitioweb/normalize.css" rel="stylesheet" />
+    <link href="~/css/barramenu/Dropdown.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><a href="#">SaludMental</a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">SaludMental</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li class="selectitem"><a asp-controller="Home" asp-action="PaginaInicio">INICIO</a></li>
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="AcosoIndex">ACOSO</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Preventiva">Preventivo</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Durante">Durante</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Despues">Despues</a></li>
+                            <li class="more">
+                                <span>
+                                    <a asp-area="" asp-controller="Home" asp-action="Test">Test</a>
+                                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                                </span>
+                                <ul class="more-sub-menu sub-menu">
+                                    <li><a asp-area="" asp-controller="Home" asp-action="Ninos">Niños</a></li>
+                                    <li><a asp-area="" asp-controller="Home" asp-action="Jovenes">Jóvenes</a></li>
+                                    <li><a asp-area="" asp-controller="Home" asp-action="Otros">Otros</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="TrastornoIndex">TRASTORNOS</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Seguridad">CIBERSEGURIDAD</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Capacitaciones">CAPACITACIONES</a></li>
+                    <li>
+                        <a asp-area="" asp-controller="" asp-action="">TE AYUDAMOS</a>
+                        <i class='bx bxs-chevron-down js-arrow arrow'></i>
+                        <ul class="js-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Ayuda">Preguntas frecuentes</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Formulario">Cuéntanos lo que <br>te está sucediendo</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="" asp-action="">CONÓCENOS</a>
+                        <i class='bx bxs-chevron-down py-arrow arrow'></i>
+                        <ul class="py-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Contactanos">CONTÁCTANOS</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Nosotros">NOSOTROS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <a asp-area="" asp-controller="Acceso" asp-action="Login"><i class="fas fa-user"></i></a>
+                <div class="input-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+        <div id="button-up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </nav>
+
+    <main>
+        <article>
+            <br />
+            <h2 class="centrar-texto">Política de Privacidad</h2>
+            <p>
+
+                Bienvenido a GuiaDeSaludMental. Nos tomamos muy en serio tu privacidad. Esta política de privacidad describe cómo recopilamos, usamos y protegemos la información que obtienes cuando visitas nuestro sitio web.
+
+                <h3>Información que recopilamos</h3>
+
+                Datos de registro: Recopilamos información que tu navegador web envía cada vez que visitas nuestro sitio web ("Datos de registro"). Estos datos pueden incluir información como la dirección de Protocolo de Internet ("IP") de tu computadora, el tipo de navegador, la versión del navegador, las páginas de nuestro sitio web que visitas, la hora y la fecha de tu visita, el tiempo que pasas en esas páginas y otros estadísticas.
+
+                Cookies: Utilizamos cookies y tecnologías de seguimiento similares para rastrear la actividad en nuestro sitio web y mantener cierta información. Puedes configurar tu navegador para que rechace todas las cookies o para que te avise cuando se envíe una cookie. Sin embargo, si no aceptas cookies, es posible que no puedas utilizar algunas partes de nuestro sitio web.
+
+                Información que nos proporcionas: Cuando te registras en una cuenta, completas un formulario de contacto u otra forma de interacción en nuestro sitio web, es posible que nos proporciones cierta información personal, como tu nombre, dirección de correo electrónico, número de teléfono y otra información que elijas proporcionar.
+                <h3>Uso de la información</h3>
+
+                Utilizamos la información recopilada para diversos fines, que incluyen:
+
+                Proporcionar y mantener nuestro sitio web.
+                Personalizar tu experiencia y ofrecerte contenido y publicidad personalizados.
+                Mejorar nuestro sitio web y desarrollar nuevos productos, servicios y funciones.
+                Comunicarnos contigo y responder a tus solicitudes y consultas.
+                Cumplir con nuestras obligaciones legales y resolver disputas.
+                Proteger nuestros derechos, propiedad y seguridad, así como los tuyos y los de otros.
+
+                <h3>Divulgación de la información</h3>
+                No vendemos, alquilamos ni intercambiamos tu información personal con terceros. Podemos compartir tu información en las siguientes circunstancias:
+
+                Con proveedores de servicios de confianza que trabajan en nuestro nombre.
+                Cuando sea necesario para cumplir con la ley, responder a solicitudes legales o proteger nuestros derechos.
+                Con tu consentimiento o según lo exija la ley.
+
+                <h3>Seguridad de la información</h3>
+
+                Implementamos medidas de seguridad para proteger la información contra el acceso no autorizado, la alteración, la divulgación o la destrucción.
+                
+            </p>
+        </article>
+
+    </main>
+
+    <button id="button-up" style="display:none;">^</button>
+
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            Dirección: Dirección de la empresa
+                        </li>
+                        <li>Teléfono: 0980006242</li>
+                        <li>
+                            Email: segutsmsd@gmail.com
+                        </li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook">
+                            <a href="https://www.facebook.com/profile.php?id=61559015191723">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </span>
+                        <span class="instagram">
+                            <a href="https://www.instagram.com/guiasaludmentalec/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </span>
+                        <span class="tiktok">
+                            <a href="https://www.tiktok.com/@@guiasaludmental">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </span>
+                        <span class="whatsapp">
+                            <a href="https://wa.me/0999999999">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Nosotros">Acerca de nosotros</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="PoliticasPrivacidad">Políticas de Privacidad</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="TerminosCondiciones">Términos y Condiciones</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="TerminosCondiciones">Ley de Protección de Datos</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Contactanos">Contáctanos</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Desarrollado por Jair Rueda &copy; 2024
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="~/js/sitioweb/menu.js"></script>
+    <script src="~/js/sitioweb/Scroll.js"></script>
+</body>
+</html>

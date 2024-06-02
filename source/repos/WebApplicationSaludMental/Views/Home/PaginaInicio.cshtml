@@ -1,0 +1,263 @@
+﻿@model List<Link>;
+
+@{
+    ViewData["Title"] = "Inicio Link";
+    var links = Model;
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GuíaSaludMental</title>
+    <meta name="description" content="Página web de Salud Mental">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="anonymous" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link href="/css/EstiloColumnaDoble.css" rel="stylesheet" />
+    <link href="/css/EstiloSinBordes.css" rel="stylesheet" />
+    <link href="/css/normalize.css" rel="stylesheet" />
+    <link href="/css/Dropdown.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><a href="#">SaludMental</a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">SaludMental</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li class="selectitem"><a asp-controller="Home" asp-action="PaginaInicio">INICIO</a></li>
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="AcosoIndex">ACOSO</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Preventiva">Preventivo</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Durante">Durante</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Despues">Despues</a></li>
+                            <li class="more">
+                                <span>
+                                    <a asp-area="" asp-controller="Home" asp-action="Test">Test Emocional</a>
+                                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                                </span>
+                                <ul class="more-sub-menu sub-menu">
+                                    <li><a asp-area="" asp-controller="Home" asp-action="Ninos">Niños</a></li>
+                                    <li><a asp-area="" asp-controller="Home" asp-action="Jovenes">Jóvenes</a></li>
+                                    <li><a asp-area="" asp-controller="Home" asp-action="Otros">Otros</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="TrastornoIndex">TRASTORNOS</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Seguridad">CIBERSEGURIDAD</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Capacitaciones">CAPACITACIONES</a></li>
+                    <li>
+                        <a asp-area="" asp-controller="" asp-action="">TE AYUDAMOS</a>
+                        <i class='bx bxs-chevron-down js-arrow arrow'></i>
+                        <ul class="js-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Ayuda">Preguntas frecuentes</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Formulario">Cuéntanos lo que <br>te está sucediendo</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="" asp-action="">CONÓCENOS</a>
+                        <i class='bx bxs-chevron-down py-arrow arrow'></i>
+                        <ul class="py-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Contactanos">CONTÁCTANOS</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Nosotros">NOSOTROS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <a asp-area="" asp-controller="Acceso" asp-action="Login"><i class="fas fa-user"></i></a>
+                <div class="input-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+        <div id="button-up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="video-container">
+            @if (Model != null && Model.Any())
+            {
+                foreach (var link in Model)
+                {
+                    if (link != null && !string.IsNullOrEmpty(link.linkVideo))
+                    {
+                        <div class="video-overlay"></div>
+                        <iframe src="@link.linkVideo"></iframe>
+                    }
+                }
+            }
+        </div>
+    </header>
+
+    <div class="red">
+        <div id="facebook">
+            <a href="https://www.facebook.com/profile.php?id=61559015191723" class="fab fa-facebook"></a>
+        </div>
+        <div id="instagram">
+            <a href="https://www.instagram.com/guiasaludmentalec/" class="fab fa-instagram"></a>
+        </div>
+        <div id="whatsapp">
+            <a href="https://wa.me/0980006242" class="fab fa-whatsapp"></a>
+        </div>
+        <div id="tiktok">
+            <a href="https://www.tiktok.com/@@guiasaludmental" class="fab fa-tiktok"></a>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <h3 class="centrar-texto">Tu guía de salud mental</h3>
+        <main class="blog">
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/AcosoLaboral.jpeg" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Acoso laboral</h4>
+                    <p>El acoso laboral o "mobbing", es una problemática creciente en el ámbito laboral que afecta a personas de todos los niveles jerárquicos y sectores profesionales. Se manifiesta a través de conductas intimidatorias, humillantes o discriminatorias, con el objetivo de causar daño psicológico o emocional a la víctima. Este fenómeno no solo impacta en la salud y bienestar de los individuos involucrados, sino que también afecta negativamente el clima laboral y la productividad de las organizaciones. Además, este problema requiere una atención constante y medidas efectivas para su erradicación en todos los entornos laborales, promoviendo el respeto y la dignidad entre los empleados.</p>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/AcosoEscolar.jpeg" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Acoso escolar</h4>
+                    <p>El acoso escolar o "bullying", es un problema global que afecta a millones de niños y adolescentes en todo el mundo. Se manifiesta a través de conductas agresivas, repetitivas e intencionadas, llevadas a cabo por uno o varios individuos con el propósito de causar daño físico, psicológico o emocional a otro estudiante. Este fenómeno no solo impacta en el bienestar y desarrollo académico de las víctimas, sino que también genera un ambiente escolar negativo que puede perdurar a lo largo de la vida. En esta introducción, exploraremos diversas formas de acoso escolar, sus causas, consecuencias y estrategias para prevenirlo y abordarlo eficazmente en las escuelas.</p>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/Ciberacoso.jpeg" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Ciberacoso</h4>
+                    <p>El ciberacoso se ha convertido en una preocupación creciente en todo el mundo. Esta forma de intimidación y hostigamiento se lleva a cabo a través de medios electrónicos, como redes sociales, mensajes de texto, correos electrónicos y aplicaciones de mensajería, entre otros. El ciberacoso puede tomar muchas formas, desde el acoso verbal y la difamación hasta la suplantación de identidad y el acoso sexual en línea. Sus impactos pueden ser devastadores, afectando la salud mental, emocional y social de las víctimas, así como su rendimiento académico y su seguridad en línea. En esta introducción, exploraremos las dimensiones del ciberacoso, sus causas, consecuencias y estrategias para prevenirlo.</p>
+                </div>
+            </article>
+        </main>
+
+    </div>
+
+    <button id="button-up" style="display:none;">^</button>
+
+    <script>
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+            if (!myLandbot) {
+                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+                s.addEventListener('load', function () {
+                    var myLandbot = new Landbot.Livechat({
+                        configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2220733-C7ROY1VG94G0UV3L/index.json',
+                    });
+                });
+                s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+        }
+    </script>
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            Dirección: Dirección de la empresa
+                        </li>
+                        <li>Teléfono: 0980006242</li>
+                        <li>
+                            Email: segutsmsd@gmail.com
+                        </li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook">
+                            <a href="https://www.facebook.com/profile.php?id=61559015191723">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </span>
+                        <span class="instagram">
+                            <a href="https://www.instagram.com/guiasaludmentalec/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </span>
+                        <span class="tiktok">
+                            <a href="https://www.tiktok.com/@@guiasaludmental">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </span>
+                        <span class="whatsapp">
+                            <a href="https://wa.me/0999999999">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Nosotros">Acerca de nosotros</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="PoliticasPrivacidad">Políticas de Privacidad</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="TerminosCondiciones">Términos y Condiciones</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="TerminosCondiciones">Ley de Protección de Datos</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Contactanos">Contáctanos</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Desarrollado por Jair Rueda &copy; 2024
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="/js/menu.js"></script>
+    <script src="/js/Scroll.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

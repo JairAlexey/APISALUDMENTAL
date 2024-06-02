@@ -1,0 +1,228 @@
+﻿@{
+    ViewData["Title"] = "Pagina de Test";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuiaSaludMental</title>
+    <meta name="description" content="Página web de salud Mental">
+
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="anonymous" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link href="~/css/sitioweb/estilocolumnadoble.css" rel="stylesheet" />
+    <link href="~/css/barramenu/estilosinbordes.css" rel="stylesheet" />
+    <link href="~/css/sitioweb/normalize.css" rel="stylesheet" />
+    <link href="~/css/barramenu/Dropdown.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><a href="#">SaludMental</a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">SaludMental</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li class="selectitem"><a asp-controller="Home" asp-action="PaginaInicio">INICIO</a></li>
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="AcosoIndex">ACOSO</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Preventiva">Preventivo</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Durante">Durante</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Despues">Despues</a></li>
+                            <li class="more">
+                                <span>
+                                    <a asp-area="" asp-controller="Home" asp-action="Test">Test</a>
+                                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                                </span>
+                                <ul class="more-sub-menu sub-menu">
+                                    <li><a asp-area="" asp-controller="Home" asp-action="Ninos">Niños</a></li>
+                                    <li><a asp-area="" asp-controller="Home" asp-action="Jovenes">Jóvenes</a></li>
+                                    <li><a asp-area="" asp-controller="Home" asp-action="Otros">Otros</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="TrastornoIndex">TRASTORNOS</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Seguridad">CIBERSEGURIDAD</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Capacitaciones">CAPACITACIONES</a></li>
+                    <li>
+                        <a asp-area="" asp-controller="" asp-action="">TE AYUDAMOS</a>
+                        <i class='bx bxs-chevron-down js-arrow arrow'></i>
+                        <ul class="js-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Ayuda">Preguntas frecuentes</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Formulario">Cuéntanos lo que <br>te está sucediendo</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="" asp-action="">CONÓCENOS</a>
+                        <i class='bx bxs-chevron-down py-arrow arrow'></i>
+                        <ul class="py-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Contactanos">CONTÁCTANOS</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Nosotros">NOSOTROS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <a asp-area="" asp-controller="Acceso" asp-action="Login"><i class="fas fa-user"></i></a>
+                <div class="input-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+        <div id="button-up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </nav>
+
+    <div class="contenedor">
+        <br></br>
+        <h3 class="centrar-texto">Test disponibles:</h3>
+        <main class="blog">
+
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/MiedoInseguridadesNinos.jpeg" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">MIEDO E INSEGURIDADES NIÑOS</h4>
+                    <p>Este cuestionario de miedos e inseguridadeds en los niños puede proporcionar una guía para evaluar la presencia y el nivel de miedos o inseguridades que experimentan los niños en la escuela u otra institución. Este instrumento busca identificar temores que pueden afectar su rendimiento académico y socialización con normalidad.</p>
+                    <a class="boton boton--primario" asp-area="" asp-controller="Home" asp-action="MiedoInseguridadesNinos">Hacer test</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/EstadoAnimoNinos.jpeg" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">ESTADO DE ANIMO NIÑOS</h4>
+                    <p>Este cuestionario ayuda a identificar posibles estados de ánimo y proporcionar una idea general del bienestar emocional de los niños. Sin embargo, es importante recordar que este cuestionario no sustituye la evaluación de un profesional de la salud mental. Si hay preocupaciones es recomendable buscar la orientación de un especialista.</p>
+                    <a class="boton boton--primario" asp-area="" asp-controller="Home" asp-action="EstadoAnimoNinos">Hacer test</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/ResponsabilidadNinos.jpeg" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">RESPONSABILIDADES NIÑOS</h4>
+                    <p>Este cuestionario puede ofrecer una visión general del nivel de responsabilidad y el cumplimiento de expectativas de los niños en el rango de edad mencionado. Sin embargo, es importante recordar que es solo una herramienta orientativa y no sustituye la evaluación individual y el apoyo parental para fomentar el desarrollo de responsabilidades en los niños.</p>
+                    <a class="boton boton--primario" asp-area="" asp-controller="Home" asp-action="ResponsabilidadNinos">Hacer test</a>
+
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/FelicidadNinos.jpeg" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">FELICIDAD NIÑOS</h4>
+                    <p>Este cuestionario puede proporcionar una guía para evaluar el nivel de felicidad percibido por el niño y brindar información sobre su bienestar emocional. Sin embargo, es importante tener en cuenta que este cuestionario es una herramienta orientativa y no sustituye una evaluación profesional si existen preocupaciones significativas sobre el bienestar del niño.</p>
+                    <a class="boton boton--primario" asp-area="" asp-controller="Home" asp-action="FelicidadNinos">Hacer test</a>
+
+                </div>
+            </article>
+
+        </main>
+
+    </div>
+
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            Dirección: Dirección de la empresa
+                        </li>
+                        <li>Teléfono: 0980006242</li>
+                        <li>
+                            Email: segutsmsd@gmail.com
+                        </li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook">
+                            <a href="https://www.facebook.com/profile.php?id=61559015191723">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </span>
+                        <span class="instagram">
+                            <a href="https://www.instagram.com/guiasaludmentalec/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </span>
+                        <span class="tiktok">
+                            <a href="https://www.tiktok.com/@@guiasaludmental">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </span>
+                        <span class="whatsapp">
+                            <a href="https://wa.me/0999999999">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Nosotros">Acerca de nosotros</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="PoliticasPrivacidad">Políticas de Privacidad</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="TerminosCondiciones">Términos y Condiciones</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="TerminosCondiciones">Ley de Protección de Datos</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Contactanos">Contáctanos</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Desarrollado por Jair Rueda &copy; 2024
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="~/js/sitioweb/menu.js"></script>
+    <script src="~/js/sitioweb/Scroll.js"></script>
+</body>
+</html>

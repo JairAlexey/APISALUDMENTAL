@@ -1,0 +1,49 @@
+using WebApplicationSaludMental.Configurations;
+using WebApplicationSaludMental.Services;
+using Microsoft.Extensions.Configuration;
+using WebApplicationSaludMental.Helpers;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Configuración del logging
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.AddDebug();
+
+// Obtener la configuración del builder
+var configuration = builder.Configuration;
+
+// Añadir controladores con vistas al contenedor de servicios
+builder.Services.AddControllersWithViews();
+
+// Configura y registra ApiSettings en el contenedor de servicios usando la sección 'ApiSettings' del archivo de configuración.
+builder.Services.Configure<ApiSettings>(configuration.GetSection("ApiSettings"));
+
+// Agrega el servicio HttpClient al contenedor. Esto permite inyectar y usar HttpClient en cualquier parte de la aplicación.
+builder.Services.AddHttpClient();
+
+// Registra el servicio ApiService como 'Scoped', lo que significa que se creará una instancia por cada solicitud.
+builder.Services.AddScoped<IApiService, ApiService>();
+
+// Registra el servicio FilesHelper como 'Scoped'
+builder.Services.AddScoped<IFilesHelper, FilesHelper>();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+}
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseAuthorization();
+
+// Configura la ruta predeterminada para que apunte a la acción 'Login' en el controlador 'Home'.
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=PaginaInicio}/{id?}");
+
+app.Run();

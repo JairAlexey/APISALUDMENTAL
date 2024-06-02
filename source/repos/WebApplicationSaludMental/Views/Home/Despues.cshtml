@@ -1,0 +1,275 @@
+﻿@{
+    ViewData["Title"] = "Pagina Despues";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuiaSaludMental</title>
+    <meta name="description" content="Página web de salud Mental">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="anonymous" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link href="~/css/sitioweb/estilocolumnadoble.css" rel="stylesheet" />
+    <link href="~/css/barramenu/estilosinbordes.css" rel="stylesheet" />
+    <link href="~/css/sitioweb/normalize.css" rel="stylesheet" />
+    <link href="~/css/barramenu/Dropdown.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><a href="#">SaludMental</a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">SaludMental</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li class="selectitem"><a asp-controller="Home" asp-action="PaginaInicio">INICIO</a></li>
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="AcosoIndex">ACOSO</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Preventiva">Preventivo</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Durante">Durante</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Despues">Despues</a></li>
+                            <li class="more">
+                                <span>
+                                    <a asp-area="" asp-controller="Home" asp-action="Test">Test</a>
+                                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                                </span>
+                                <ul class="more-sub-menu sub-menu">
+                                    <li><a asp-area="" asp-controller="Home" asp-action="Ninos">Niños</a></li>
+                                    <li><a asp-area="" asp-controller="Home" asp-action="Jovenes">Jóvenes</a></li>
+                                    <li><a asp-area="" asp-controller="Home" asp-action="Otros">Otros</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="TrastornoIndex">TRASTORNOS</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Seguridad">CIBERSEGURIDAD</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Capacitaciones">CAPACITACIONES</a></li>
+                    <li>
+                        <a asp-area="" asp-controller="" asp-action="">TE AYUDAMOS</a>
+                        <i class='bx bxs-chevron-down js-arrow arrow'></i>
+                        <ul class="js-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Ayuda">Preguntas frecuentes</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Formulario">Cuéntanos lo que <br>te está sucediendo</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="" asp-action="">CONÓCENOS</a>
+                        <i class='bx bxs-chevron-down py-arrow arrow'></i>
+                        <ul class="py-sub-menu sub-menu">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Contactanos">CONTÁCTANOS</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Nosotros">NOSOTROS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <a asp-area="" asp-controller="Acceso" asp-action="Login"><i class="fas fa-user"></i></a>
+                <div class="input-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+        <div id="button-up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </nav>
+
+    <div class="contenedor">
+        <br />
+        <br />
+        <main class="blog">
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/DespuesDelAcoso/1.webp" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">1. Escucha y apoyo emocional</h4>
+                    <p>Escucha activamente a la persona afectada, valida sus sentimientos y demuéstrale tu apoyo incondicional. Es importante que se sienta escuchada y comprendida en este momento difícil.</p>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/DespuesDelAcoso/2.webp" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">2. Ofrece ayuda profesional</h4>
+                    <p>Recomienda a la persona que busque apoyo de un profesional de la salud mental o un consejero capacitado para ayudarla a procesar lo que ha experimentado y superar el trauma del acoso.</p>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/DespuesDelAcoso/3.webp" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">3. Documenta la situación</h4>
+                    <p>Si la persona está dispuesta, ayúdala a documentar los incidentes de acoso, incluyendo fechas, detalles específicos y cualquier evidencia relevante, como mensajes de texto, correos electrónicos o testimonios de testigos.</p>
+
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/DespuesDelAcoso/4.webp" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">4. Reporta el acoso</h4>
+                    <p>Ayuda a la persona a informar el acoso a las autoridades competentes, como recursos humanos en el caso de un entorno laboral, directores de escuela en el caso de acoso escolar, o la policía si es necesario.</p>
+
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/DespuesDelAcoso/5.webp" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">5. Explora opciones legales</h4>
+                    <p>Si el acoso ha alcanzado niveles graves o ilegales, considera la posibilidad de buscar asesoramiento legal para explorar opciones legales disponibles, como ordenes de restricción o acciones legales contra el acosador.</p>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/DespuesDelAcoso/6.webp" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">6. Protege la privacidad y confidencialidad</h4>
+                    <p>Respeta la privacidad y confidencialidad de la persona afectada, y asegúrate de no divulgar su situación sin su consentimiento.</p>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/DespuesDelAcoso/7.webp" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">7. Fomenta la autocuidado</h4>
+                    <p>Anima a la persona a practicar el autocuidado y buscar actividades que le ayuden a mantenerse saludable física y emocionalmente durante este proceso difícil.</p>
+
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="~/img/IA/DespuesDelAcoso/8.webp" alt="imagen blog" />
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">8. Seguimiento y seguimiento</h4>
+                    <p>Continúa brindando apoyo a la persona afectada a medida que avanza en el proceso de recuperación. Haz un seguimiento regular para asegurarte de que esté recibiendo el apoyo necesario y que sus necesidades estén siendo atendidas.</p>
+
+                </div>
+            </article>
+
+        </main>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>
+                            Dirección: Dirección de la empresa
+                        </li>
+                        <li>Teléfono: 0980006242</li>
+                        <li>
+                            Email: segutsmsd@gmail.com
+                        </li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook">
+                            <a href="https://www.facebook.com/profile.php?id=61559015191723">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </span>
+                        <span class="instagram">
+                            <a href="https://www.instagram.com/guiasaludmentalec/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </span>
+                        <span class="tiktok">
+                            <a href="https://www.tiktok.com/@@guiasaludmental">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </span>
+                        <span class="whatsapp">
+                            <a href="https://wa.me/0999999999">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Nosotros">Acerca de nosotros</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="PoliticasPrivacidad">Políticas de Privacidad</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="TerminosCondiciones">Términos y Condiciones</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="TerminosCondiciones">Ley de Protección de Datos</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Contactanos">Contáctanos</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Desarrollado por Jair Rueda &copy; 2024
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="~/js/sitioweb/menu.js"></script>
+    <script src="~/js/sitioweb/Scroll.js"></script>
+</body>
+</html>

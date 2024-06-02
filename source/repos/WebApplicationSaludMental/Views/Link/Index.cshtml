@@ -1,0 +1,43 @@
+﻿@model List<Link>;
+
+@{
+    ViewData["Title"] = "Inicio Link";
+    var links = Model;
+}
+
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<h1 class="display-4">LISTA LINKS</h1>
+<p>Ejemplo de ingreso de link: https://www.youtube.com/embed/0Ai8_SR8Ncw?autoplay=1&mute=1</p>
+
+<button type="button" class="btn btn-dark mb-3" onclick="location.href='@Url.Action("Create", "Link")'">Crear</button>
+
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">IdLink</th>
+            <th scope="col">LinkVideo</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var link in links)
+        {
+            <tr>
+                <td>@link.IdLink</td>
+                <td>@link.linkVideo</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <a asp-action="Details" asp-route-IdLink="@link.IdLink" class="btn btn-primary me-2"><i class="bi bi-eye-fill"></i></a>
+                        <a asp-action="Edit" asp-route-IdLink="@link.IdLink" class="btn btn-warning me-2"><i class="bi bi-pencil-square"></i></a>
+                        <a asp-action="Delete" asp-route-IdLink="@link.IdLink" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                    </div>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

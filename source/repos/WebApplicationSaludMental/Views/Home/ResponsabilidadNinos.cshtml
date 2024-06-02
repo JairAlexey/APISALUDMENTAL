@@ -1,0 +1,179 @@
+﻿@{
+    ViewData["Title"] = "Test 1";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="~/css/test/style.css" rel="stylesheet" />
+    <title>Test 1</title>
+</head>
+<body data-cuestionario-id="ResponsabilidadNinos">
+    <header>
+        <h1>RESPONSABILIDAD NIÑOS</h1>
+        <P>Por favor, responde "Sí" o "No" a cada una de las siguientes preguntas:</P>
+    </header>
+    <div class="back-button-container">
+        <a asp-area="" asp-controller="Home" asp-action="Ninos" class="btnBack">
+            <img src="~/img/login/back.png" alt="Regresar" />
+        </a>
+    </div>
+    <div class="container">
+        <section id="p0">
+            <div class="question">
+            <h3>1.	¿Ayudas en las tareas del hogar, como ordenar tu habitación o recoger tus juguetes?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/ResponsabilidadesNinos/Pregunta1.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p1">
+            <div class="question">
+            <h3>2.	¿Cumples con tus responsabilidades escolares, como hacer la tarea y estudiar para los exámenes?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/ResponsabilidadesNinos/Pregunta2.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p2">
+            <div class="question">
+            <h3>3.	¿Aceptas las consecuencias de tus acciones cuando cometes un error o haces algo mal?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/ResponsabilidadesNinos/Pregunta3.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p3">
+            <div class="question">
+            <h3>4.	¿Eres amable y respetuoso con tus compañeros y adultos?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/ResponsabilidadesNinos/Pregunta4.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p4">
+            <div class="question">
+            <h3>5.	¿Colaboras con tus padres o cuidadores en las actividades diarias, como poner la mesa o ayudar en la cocina?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/ResponsabilidadesNinos/Pregunta5.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p5">
+            <div class="question">
+            <h3>6.	¿Expresas tus necesidades y emociones de manera adecuada y respetuosa?</h3>
+            <label>
+                <input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/ResponsabilidadesNinos/Pregunta6.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p6">
+            <div class="question">
+            <h3>7.	¿Sigues las reglas y normas establecidas en casa y en la escuela?</h3>
+            <label>
+                <input type="radio" value="1" name="p6" onclick="respuesta(6,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p6" onclick="respuesta(6,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/ResponsabilidadesNinos/Pregunta7.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p7">
+            <div class="question">
+            <h3>8.	¿Te responsabilizas de cuidar a tus mascotas, si las tienes, dándoles comida y agua?</h3>
+            <label>
+                <input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p7" onclick="respuesta(7,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/ResponsabilidadesNinos/Pregunta8.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p8">
+            <div class="question">
+            <h3>9.	¿Demuestras autonomía al realizar tareas sencillas por ti mismo(a), como vestirte o prepararte un snack?</h3>
+            <label>
+                <input type="radio" value="1" name="p8" onclick="respuesta(8,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p8" onclick="respuesta(8,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/ResponsabilidadesNinos/Pregunta9.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p9">
+            <div class="question">
+            <h3>10.	¿Eres puntual en tus compromisos, como llegar a tiempo a clases o actividades programadas?</h3>
+            <label>
+                <input type="radio" value="1" name="p9" onclick="respuesta(9,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p9" onclick="respuesta(9,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/ResponsabilidadesNinos/Pregunta10.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <h2>
+            <button onclick="revelar()">Calificar</button>
+            <span id="resultado"></span>
+        </h2>
+        <h2>
+            <span id="rango"></span>
+        </h2>
+    </div>
+
+    <script src="~/js/sitioweb/test.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+﻿@{
+    ViewData["Title"] = "Test 1";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="~/css/test/style.css" rel="stylesheet" />
+    <title>Test 1</title>
+</head>
+<body data-cuestionario-id="MiedoInseguridadesNinos">
+
+    <header>
+        <h1>MIEDOS E INSEGURIDADES NIÑOS</h1>
+        <P>Por favor, responde SI o NO a cada una de las siguientes preguntas:</P>
+    </header>
+    <div class="back-button-container">
+        <a asp-area="" asp-controller="Home" asp-action="Ninos" class="btnBack">
+            <img src="~/img/login/back.png" alt="Regresar" />
+        </a>
+    </div>
+    <div class="container">
+        <section id="p0">
+            <div class="question">
+            <h3>1.	¿Te sientes nervioso(a) antes de ir a la escuela?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/MiedoNinos/Pregunta1.jpeg" alt="imagen blog" />
+            </div>
+
+        </section>
+        <section id="p1">
+            <div class="question">
+            <h3>2.	¿Te preocupa equivocarte al responder preguntas en clase?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/MiedoNinos/Pregunta2.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p2">
+            <div class="question">
+            <h3>3.	¿Tienes miedo de hablar en público frente a tus compañeros?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/MiedoNinos/Pregunta3.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p3">
+            <div class="question">
+            <h3>4.	¿Sientes temor de hacer nuevos amigos en la escuela?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/MiedoNinos/Pregunta4.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p4">
+            <div class="question">
+            <h3>5.	¿Te incomoda participar en actividades deportivas o recreativas en la escuela?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/MiedoNinos/Pregunta5.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p5">
+            <div class="question">
+            <h3>6.	¿Te asusta ser el centro de atención en cualquier situación escolar?</h3>
+            <label>
+                <input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/MiedoNinos/Pregunta6.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p6">
+            <div class="question">
+            <h3>7.	¿Te preocupa lo que piensen tus compañeros sobre ti?</h3>
+            <label>
+                <input type="radio" value="1" name="p6" onclick="respuesta(6,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p6" onclick="respuesta(6,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/MiedoNinos/Pregunta7.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p7">
+            <div class="question">
+            <h3>8.	¿Tienes miedo de no entender las lecciones o tareas escolares?</h3>
+            <label>
+                <input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p7" onclick="respuesta(7,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/MiedoNinos/Pregunta8.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p8">
+            <div class="question">
+            <h3>9.	¿Te sientes inseguro(a) al trabajar en grupo con otros estudiantes?</h3>
+            <label>
+                <input type="radio" value="1" name="p8" onclick="respuesta(8,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p8" onclick="respuesta(8,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/MiedoNinos/Pregunta9.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p9">
+            <div class="question">
+            <h3>10.	¿Te preocupa ser juzgado(a) por tus gustos o intereses en la escuela?</h3>
+            <label>
+                <input type="radio" value="1" name="p9" onclick="respuesta(9,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p9" onclick="respuesta(9,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/MiedoNinos/Pregunta10.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <h2>
+            <button onclick="revelar()">Calificar</button>
+            <span id="resultado"></span>
+        </h2>
+        <h2>
+            <span id="rango"></span>
+        </h2>
+
+    </div>
+
+    <script src="~/js/sitioweb/test.js"></script>
+</body>
+</html>

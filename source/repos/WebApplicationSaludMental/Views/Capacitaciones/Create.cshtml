@@ -1,0 +1,97 @@
+﻿@model Capacitaciones
+@{
+    ViewData["Title"] = "Crear Capacitaciones";
+}
+
+<div class="text-center">
+    <h1 class="display-4">CREAR CAPACITACION</h1>
+
+    <form enctype="multipart/form-data" class="col-sm-4 mx-auto my-auto" method="POST">
+
+        <div class="form-group mb-5 mt-4">
+            <label for="exampleInputEmail1">Titulo</label>
+            <input asp-for="Titulo" class="form-control mt-2 placeholder-black" placeholder="Ingrese un titulo">
+        </div>
+
+        <div class="form-group mb-5">
+            <label for="exampleInputEmail1">Descripción</label>
+            <input asp-for="Descripcion" class="form-control mt-2 placeholder-black" placeholder="Ingrese la descripción de la descripcion">
+        </div>
+
+        <div class="form-group mb-5">
+            <label for="exampleInputEmail1">Fecha Inicio</label>
+            <input asp-for="FechaInicio" class="form-control mt-2 placeholder-black" placeholder="Ingrese la fecha de inicio de la capacitacion" type="date">
+        </div>
+
+        <div class="form-group mb-5">
+            <label for="exampleInputEmail1">Fecha Fin</label>
+            <input asp-for="FechaFin" class="form-control mt-2 placeholder-black" placeholder="Ingrese la fecha de fin de la capacitacion" type="date">
+        </div>
+
+        <div class="form-group mb-5">
+            <label for="exampleInputEmail1">Lugar</label>
+            <input asp-for="Lugar" class="form-control mt-2 placeholder-black" placeholder="Ingrese el lugar de la capacitacion">
+        </div>
+
+        <div class="form-group mb-5">
+            <label for="">Modalidad</label>
+            <input asp-for="Modalidad" class="form-control mt-2 placeholder-black" placeholder="Ingrese la modalidad de la capacitacion">
+        </div>
+
+        <div class="form-group mb-5">
+            <label for="exampleInputEmail1">Precio</label>
+            <input asp-for="Precio" class="form-control mt-2 placeholder-black" placeholder="Ingrese el precio de la capacitacion">
+        </div>
+
+        <div class="form-group mb-5">
+            <label for="Imagen">Imagen</label>
+            <input type="file" name="Imagen" id="imagen" onchange="uploadImage()" class="form-control">
+
+        </div>
+
+        <script>
+            function uploadImage() {
+                var fileInput = document.getElementById('imagen');
+                var formData = new FormData();
+                formData.append("Imagen", fileInput.files[0]);
+
+                fetch('@Url.Action("UploadImage", "Capacitaciones")', {
+                    method: 'POST',
+                    body: formData
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        console.log("Received data:", data);  // Depura qué data estás recibiendo
+                        if (data.success) {
+                            document.getElementById('URLImagen').value = data.url;  // Asegúrate de que este ID es correcto
+                            console.log("URL set in hidden input:", document.getElementById('URLImagen').value); // Depura si se está estableciendo correctamente
+                        } else {
+                            alert("Failed to upload image: " + data.message);
+                        }
+                    })
+                    .catch(error => {
+                        alert('Error: ' + error.message);
+                    });
+            }
+
+        </script>
+
+        <input type="hidden" id="URLImagen" name="URLImagen">
+
+
+
+        <div class="row mt-5">
+            <div class="col-6 col-md-6">
+                <a asp-action="Index" class="btn btn-warning">Volver</a>
+            </div>
+            <div class="col-6 col-md-6">
+                <button type="submit" class="btn btn-success">Enviar</button>
+            </div>
+        </div>
+    </form>
+</div>

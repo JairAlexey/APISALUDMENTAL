@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnPh4hAX4AEuWh/RGre6uTQAAAAACAAAAAAAQZgAAAAEAACAAAADwliejh1abKp6k9XSFQtuaNrgrDsH8Gl9HQAygx90jgwAAAAAOgAAAAAIAACAAAAC1p+U8K9lNCu2ijbcfKl1t8HI/u76dnHP03fUJ7K1UajAAAACmckt6d1CAyzoB0Qgp381fK3b1T1jdZa2tvDb4tFSoCZahuwHi0OxBOTtp2cRG18tAAAAAds64dfbBrpjt7h1hGrIL750iUJ5kElGNc6L5LDz0uOnLDbY9GEnLWPWNisaNFXsOYMxaEXCAsEcQMK3kHnzzOg==</EncryptedPassword>
+    <_PublishTargetUrl>ftp://155.254.244.40/www.SaludMentalEc.somee.com</_PublishTargetUrl>
+    <History>False|2024-06-01T23:30:10.4026711Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>06/01/2024 17:06:38</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/01/2024 17:22:49</publishTime>
+    </File>
+    <File Include="Firebase.Auth.dll">
+      <publishTime>08/05/2021 01:45:32</publishTime>
+    </File>
+    <File Include="Firebase.Storage.dll">
+      <publishTime>11/26/2018 16:49:32</publishTime>
+    </File>
+    <File Include="Microsoft.SqlServer.Server.dll">
+      <publishTime>01/27/2022 12:19:08</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 02:09:54</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>06/01/2024 18:29:37</publishTime>
+    </File>
+    <File Include="WebApplicationSaludMental.runtimeconfig.json">
+      <publishTime>06/01/2024 18:07:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

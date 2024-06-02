@@ -1,0 +1,179 @@
+﻿@{
+    ViewData["Title"] = "Test 1";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="~/css/test/style.css" rel="stylesheet" />
+    <title>Test 1</title>
+</head>
+<body data-cuestionario-id="EstadoAnimoJovenes">
+    <header>
+        <h1>ESTADO DE ANIMO JOVENES</h1>
+        <P>Por favor, responde "Sí" o "No" a cada una de las siguientes preguntas:</P>
+    </header>
+    <div class="back-button-container">
+        <a asp-area="" asp-controller="Home" asp-action="Jovenes" class="btnBack">
+            <img src="~/img/login/back.png" alt="Regresar" />
+        </a>
+    </div>
+    <div class="container">
+        <section id="p0">
+            <div class="question">
+            <h3>1.	¿Te sientes feliz y con ánimo positivo la mayor parte del tiempo?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/AnimoJovenes/Pregunta1.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p1">
+            <div class="question">
+            <h3>2.	¿Experimentas cambios bruscos en tu estado de ánimo con regularidad?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/AnimoJovenes/Pregunta2.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p2">
+            <div class="question">
+            <h3>3.	¿Tienes dificultades para concentrarte en las tareas escolares o en tus actividades diarias?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/AnimoJovenes/Pregunta3.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p3">
+            <div class="question">
+            <h3>4.	¿Te sientes estresado(a) o abrumado(a) por la presión académica?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/AnimoJovenes/Pregunta4.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p4">
+            <div class="question">
+            <h3>5.	¿Sientes tristeza o melancolía frecuentemente?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/AnimoJovenes/Pregunta5.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p5">
+            <div class="question">
+            <h3>6.	¿Te cuesta dormir o descansar adecuadamente por las noches?</h3>
+            <label>
+                <input type="radio" value="1" name="p5" onclick="respuesta(5,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p5" onclick="respuesta(5,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/AnimoJovenes/Pregunta6.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p6">
+            <div class="question">
+            <h3>7.	¿Te sientes ansioso(a) o nervioso(a) la mayor parte del tiempo?</h3>
+            <label>
+                <input type="radio" value="1" name="p6" onclick="respuesta(6,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p6" onclick="respuesta(6,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/AnimoJovenes/Pregunta7.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p7">
+            <div class="question">
+            <h3>8.	¿Tienes dificultades para controlar tus emociones, como el enojo o la frustración?</h3>
+            <label>
+                <input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p7" onclick="respuesta(7,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/AnimoJovenes/Pregunta8.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p8">
+            <div class="question">
+            <h3>9.	¿Te sientes aislado(a) o solo(a) con frecuencia?</h3>
+            <label>
+                <input type="radio" value="1" name="p8" onclick="respuesta(8,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p8" onclick="respuesta(8,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/AnimoJovenes/Pregunta9.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <section id="p9">
+            <div class="question">
+            <h3>10.	¿Tienes interés en participar en actividades sociales o recreativas?</h3>
+            <label>
+                <input type="radio" value="1" name="p9" onclick="respuesta(9,this)"> Si
+            </label>
+            <label>
+                <input type="radio" value="2" name="p9" onclick="respuesta(9,this)"> No
+            </label>
+            </div>
+            <div class="image-container">
+                <img loading="lazy" src="~/img/AnimoJovenes/Pregunta10.jpeg" alt="imagen blog" />
+            </div>
+        </section>
+        <h2>
+            <button onclick="revelar()">Calificar</button>
+            <span id="resultado"></span>
+        </h2>
+        <h2>
+            <span id="rango"></span>
+        </h2>
+    </div>
+
+    <script src="~/js/sitioweb/test.js"></script>
+</body>
+</html>

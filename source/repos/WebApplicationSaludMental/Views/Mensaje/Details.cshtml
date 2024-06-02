@@ -1,0 +1,39 @@
+﻿@model Mensaje
+@{
+    ViewData["Title"] = "Visualizar Mensajes";
+}
+
+<div class="text-center">
+    <h1 class="display-4">VISUALIZAR MENSAJES</h1>
+
+    <form class="col-sm-4 mx-auto my-auto" method="post">
+
+        <div class="form-group mb-5">
+            <label for="exampleInputEmail1">Nombre</label>
+            <input asp-for="Nombre" class="form-control mt-2 placeholder-black" placeholder="Ingrese el nombre">
+        </div>
+
+        <div class="form-group mb-5">
+            <label for="exampleInputEmail1">Correo</label>
+            <input asp-for="Correo" class="form-control mt-2 placeholder-black" placeholder="Ingrese el correo">
+        </div>
+
+
+        <div class="form-group mb-5">
+            <label for="exampleInputEmail1">Telefono</label>
+            <input asp-for="Telefono" class="form-control mt-2 placeholder-black" placeholder="Ingrese el numero telefonico">
+        </div>
+
+
+        <div class="form-group mb-5">
+            <label for="exampleInputEmail1">Mensaje</label>
+            <input asp-for="MensajeUsuario" class="form-control mt-2 placeholder-black" placeholder="Ingrese el mensaje">
+        </div>
+
+        <div class="form-group mb-5">
+            <a asp-action="index" class="btn btn-warning">Volver</a>
+        </div>
+
+    </form>
+
+</div>

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --login-bg: #f8f3ff;
+    --title-bg: #9089cc;
+    --button-bg: #674baf;
+    --light-pink: #e882e8;
+    --image-bg: #eadbff;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+body {
+    background: linear-gradient(to right, #60bbb6, #014770);
+}
+
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    display: flex; /* Usa Flexbox */
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    border: 2px solid #5624d0;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+    background: #fff;
+}
+
+.question {
+    flex: 1; /* La sección de la pregunta ocupa todo el espacio disponible menos el reservado para la imagen */
+    padding-right: 20px; /* Espacio entre la pregunta y la imagen */
+}
+
+.question label {
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px dashed #ccc;
+    margin-bottom: 3px;
+    font-weight: bold; /* Esto hace que el texto sea negrita */
+}
+
+.question label:hover {
+    background: #cec0fc;
+}
+
+
+.image-container {
+    flex-basis: 150px; /* Espacio reservado para la imagen, ajusta según necesidades */
+    height: 150px; /* Altura de la imagen */
+    background-color: #eadbff; /* Fondo de prueba para el contenedor de la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px; /* Opcional, para bordes redondeados */
+}
+
+.image-container img {
+    max-width: 100%; /* Asegura que el ancho de la imagen no sea mayor al del contenedor */
+    max-height: 100%; /* Asegura que la altura de la imagen no sea mayor a la del contenedor */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    border-radius: 15px;
+}
+
+label {
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px dashed #ccc;
+    margin-bottom: 3px;
+}
+
+    label:hover {
+        background: #cec0fc;
+    }
+
+button {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: #76d7c8;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+    button:hover {
+        background: #000;
+        color: #fff;
+    }
+
+h2 {
+    text-align: center;
+}
+
+#resultado {
+    font-size: 30px;
+    color: darkred;
+}
+
+
+.back-button-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1; /* Para que esté sobre el título */
+}
+
+.btnBack {
+    position: relative; /* Para posicionar el círculo */
+    width: 40px; /* Tamaño del botón */
+    height: 40px;
+    border-radius: 50%; /* Para hacerlo redondo */
+    background-color: #fff; /* Color del círculo */
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Eliminamos el padding para que el icono esté alineado */
+}
+
+    .btnBack img {
+        max-width: 80%; /* Tamaño máximo del icono */
+    }
+
+    /* Estilos para el círculo */
+    .btnBack::before {
+        content: ''; /* Contenido generado */
+        position: absolute;
+        top: 50%; /* Centramos verticalmente */
+        left: 50%; /* Centramos horizontalmente */
+        transform: translate(-50%, -50%);
+        width: 40px; /* Tamaño del círculo */
+        height: 40px;
+        border-radius: 50%; /* Para hacerlo circular */
+        background-color: #898989; /* Color del círculo */
+        z-index: -1; /* Para que esté detrás del ícono */
+    }
+
