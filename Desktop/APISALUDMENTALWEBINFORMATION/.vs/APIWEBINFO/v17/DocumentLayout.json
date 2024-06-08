@@ -1,0 +1,643 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240608205457_cambiosUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240608205457_cambiosUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\controllers\\capacitacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:controllers\\capacitacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\models\\capacitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:models\\capacitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\models\\reservacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:models\\reservacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\controllers\\formulariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:controllers\\formulariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\models\\formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:models\\formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\controllers\\reservacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:controllers\\reservacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\controllers\\linkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:controllers\\linkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240430084549_nuevabd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240430084549_nuevabd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\controllers\\mensajescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:controllers\\mensajescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\models\\link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:models\\link.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240302062102_mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240302062102_mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240227153357_reservaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240227153357_reservaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240219181145_updatelink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240219181145_updatelink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240102160525_capacitacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240102160525_capacitacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\apiwebinfo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:apiwebinfo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\apiwebinfo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:apiwebinfo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240102211643_cambiosenlosmetodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240102211643_cambiosenlosmetodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240219141035_linkvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240219141035_linkvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240301212146_local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240301212146_local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240308034552_fechainiciofin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240308034552_fechainiciofin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240319153612_imagencarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240319153612_imagencarga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240507184210_posturlimagencambios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240507184210_posturlimagencambios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240507180633_urlimagenfirebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240507180633_urlimagenfirebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240507173924_imagenurlparafirebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240507173924_imagenurlparafirebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240507160816_cambiocapacitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240507160816_cambiocapacitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|c:\\users\\detpc\\desktop\\apisaludmentalwebinformation\\migrations\\20240507162859_archivoimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D77AC8E-AEDC-47CA-BA0B-F42D96502F98}|APIWEBINFO.csproj|solutionrelative:migrations\\20240507162859_archivoimagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1412361945:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240608205457_cambiosUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240608205457_cambiosUsuario.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240608205457_cambiosUsuario.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240608205457_cambiosUsuario.cs",
+              "RelativeToolTip": "Migrations\\20240608205457_cambiosUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T20:54:57.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Capacitaciones.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Models\\Capacitaciones.cs",
+              "RelativeDocumentMoniker": "Models\\Capacitaciones.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Models\\Capacitaciones.cs",
+              "RelativeToolTip": "Models\\Capacitaciones.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Formulario.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Models\\Formulario.cs",
+              "RelativeDocumentMoniker": "Models\\Formulario.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Models\\Formulario.cs",
+              "RelativeToolTip": "Models\\Formulario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CapacitacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\CapacitacionesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CapacitacionesController.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\CapacitacionesController.cs",
+              "RelativeToolTip": "Controllers\\CapacitacionesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormularioController.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\FormularioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FormularioController.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\FormularioController.cs",
+              "RelativeToolTip": "Controllers\\FormularioController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAcwFEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reservacion.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Models\\Reservacion.cs",
+              "RelativeDocumentMoniker": "Models\\Reservacion.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Models\\Reservacion.cs",
+              "RelativeToolTip": "Models\\Reservacion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Models\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Models\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Models\\Usuarios.cs",
+              "RelativeToolTip": "Models\\Usuarios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20240507180633_urlImagenFirebase.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240507180633_urlImagenFirebase.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240507180633_urlImagenFirebase.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240507180633_urlImagenFirebase.cs",
+              "RelativeToolTip": "Migrations\\20240507180633_urlImagenFirebase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:06:33.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAqwDEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\ApplicationDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\ApplicationDBContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDBContextModelSnapshot.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20240507184210_POSTURLIMAGENCAMBIOS.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240507184210_POSTURLIMAGENCAMBIOS.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240507184210_POSTURLIMAGENCAMBIOS.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240507184210_POSTURLIMAGENCAMBIOS.cs",
+              "RelativeToolTip": "Migrations\\20240507184210_POSTURLIMAGENCAMBIOS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:42:10.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Mensaje.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Models\\Mensaje.cs",
+              "RelativeDocumentMoniker": "Models\\Mensaje.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Models\\Mensaje.cs",
+              "RelativeToolTip": "Models\\Mensaje.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240507173924_IMAGENURLPARAFIREBASE.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240507173924_IMAGENURLPARAFIREBASE.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240507173924_IMAGENURLPARAFIREBASE.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240507173924_IMAGENURLPARAFIREBASE.cs",
+              "RelativeToolTip": "Migrations\\20240507173924_IMAGENURLPARAFIREBASE.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T17:39:24.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LinksController.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\LinksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LinksController.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\LinksController.cs",
+              "RelativeToolTip": "Controllers\\LinksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20240507160816_CAMBIOCAPACITACION.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240507160816_CAMBIOCAPACITACION.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240507160816_CAMBIOCAPACITACION.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240507160816_CAMBIOCAPACITACION.cs",
+              "RelativeToolTip": "Migrations\\20240507160816_CAMBIOCAPACITACION.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:08:16.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20240507162859_archivoImagen.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240507162859_archivoImagen.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240507162859_archivoImagen.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240507162859_archivoImagen.cs",
+              "RelativeToolTip": "Migrations\\20240507162859_archivoImagen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:28:59.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReservacionController.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\ReservacionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservacionController.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\ReservacionController.cs",
+              "RelativeToolTip": "Controllers\\ReservacionController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAIwGUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Link.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Models\\Link.cs",
+              "RelativeDocumentMoniker": "Models\\Link.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Models\\Link.cs",
+              "RelativeToolTip": "Models\\Link.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240430084549_NUEVABD.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240430084549_NUEVABD.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240430084549_NUEVABD.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240430084549_NUEVABD.cs",
+              "RelativeToolTip": "Migrations\\20240430084549_NUEVABD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T08:45:49.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-25T02:32:45.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20240308034552_FechaInicioFin.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240308034552_FechaInicioFin.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240308034552_FechaInicioFin.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240308034552_FechaInicioFin.cs",
+              "RelativeToolTip": "Migrations\\20240308034552_FechaInicioFin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240319153612_ImagenCarga.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240319153612_ImagenCarga.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240319153612_ImagenCarga.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240319153612_ImagenCarga.cs",
+              "RelativeToolTip": "Migrations\\20240319153612_ImagenCarga.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240302062102_mensaje.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240302062102_mensaje.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240302062102_mensaje.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240302062102_mensaje.cs",
+              "RelativeToolTip": "Migrations\\20240302062102_mensaje.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MensajesController.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\MensajesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MensajesController.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\MensajesController.cs",
+              "RelativeToolTip": "Controllers\\MensajesController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowFoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAUAAAAAAAAAAABRwB4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-25T02:32:45.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240227153357_Reservaciones.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240227153357_Reservaciones.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240227153357_Reservaciones.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240227153357_Reservaciones.cs",
+              "RelativeToolTip": "Migrations\\20240227153357_Reservaciones.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20240301212146_local.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240301212146_local.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240301212146_local.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240301212146_local.cs",
+              "RelativeToolTip": "Migrations\\20240301212146_local.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240219181145_UpdateLink.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240219181145_UpdateLink.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240219181145_UpdateLink.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240219181145_UpdateLink.cs",
+              "RelativeToolTip": "Migrations\\20240219181145_UpdateLink.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240219141035_LinkVideo.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240219141035_LinkVideo.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240219141035_LinkVideo.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240219141035_LinkVideo.cs",
+              "RelativeToolTip": "Migrations\\20240219141035_LinkVideo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "APIWEBINFO.csproj",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\APIWEBINFO.csproj",
+              "RelativeDocumentMoniker": "APIWEBINFO.csproj",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\APIWEBINFO.csproj",
+              "RelativeToolTip": "APIWEBINFO.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-25T02:32:45.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240102211643_cambiosEnLosMetodos.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240102211643_cambiosEnLosMetodos.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240102211643_cambiosEnLosMetodos.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240102211643_cambiosEnLosMetodos.cs",
+              "RelativeToolTip": "Migrations\\20240102211643_cambiosEnLosMetodos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-25T02:32:45.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "APIWEBINFO",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\APIWEBINFO.csproj",
+              "RelativeDocumentMoniker": "APIWEBINFO.csproj",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\APIWEBINFO.csproj",
+              "RelativeToolTip": "APIWEBINFO.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-25T02:32:45.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240102160525_CapacitacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240102160525_CapacitacionesController.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240102160525_CapacitacionesController.cs",
+              "ToolTip": "C:\\Users\\DETPC\\Desktop\\APISALUDMENTALWEBINFORMATION\\Migrations\\20240102160525_CapacitacionesController.cs",
+              "RelativeToolTip": "Migrations\\20240102160525_CapacitacionesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:32:45.441Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
